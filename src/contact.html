@@ -18,10 +18,7 @@
             
             <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" required>
-            
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
+
             <button type="submit">Submit</button>
         </form>
     </div>
@@ -33,13 +30,11 @@
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
 
             const formData = {
                 name: name,
                 email: email,
                 subject: subject,
-                message: message
             };
 
             console.log('Form submitted:', formData);
