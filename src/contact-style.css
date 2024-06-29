@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+/* Bla bla bla */
 .container {
     width: 50%;
     margin: 0 auto;
@@ -12,6 +13,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
 }
+/* Ważne info !!! */
 h1 {
     text-align: center;
 }
@@ -39,6 +41,7 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+/* Test */
 button:hover {
     background-color: #4cae4c;
 }
